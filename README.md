@@ -1,4 +1,4 @@
-# Calculator
+# [Hyper Calculator](https://hyper2109.github.io/JSCalculator/)
 A simple calculator built in: HTML CSS JavaScript
 
 

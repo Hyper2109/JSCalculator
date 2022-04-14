@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./resourcess/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <input id="input" type="text"
+      oninput="this.value = this.value.replace(/[^0-9.+*/-]/g, '').replace(/(\..*)\./g, '$1');">
+    <div class="separator"></div>
+    <div class="btnGrid">
+      <button id="canc">CE</button>
+      <button id="power">**</button>
+      <button id="percentage">%</button>
+      <button id="slash">/</button>
+      <button id="btn7">7</button>
+      <button id="btn8">8</button>
+      <button id="btn9">9</button>
+      <button id="per">*</button>
+      <button id="btn4">4</button>
+      <button id="btn5">5</button>
+      <button id="btn6">6</button>
+      <button id="minus">-</button>
+      <button id="btn1">1</button>
+      <button id="btn2">2</button>
+      <button id="btn3">3</button>
+      <button id="plus">+</button>
+      <button id="btn0">0</button>
+      <button id="dot">.</button>
+      <button id="equal">=</button>
+    </div>
+  </div>
+
+  <script src="./resourcess/script/scrypt.js"></script>
+</body>
+
+</html>

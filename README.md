@@ -1,0 +1,19 @@
+# Calculator
+A simple calculator built in: HTML CSS JavaScript
+
+
+# Things to do
+## Features
+- [X] Style it
+- [ ] Percentage
+- [ ] More...
+
+## Bug Fixes
+- [X] Accept only numbers and needed symbols
+- [ ] Don't get multiple operations consecutively
+
+
+# Others
+Use ```npm install``` to install the necessary packages
+
+Use ```npm start``` to run the index.html

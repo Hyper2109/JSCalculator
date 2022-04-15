@@ -6,7 +6,8 @@ A simple calculator built in: HTML CSS JavaScript
 ## Features
 - [X] Style it
 - [ ] Percentage
-- [ ] More...
+- [ ] Result when press enter on keyboard
+- [ ] Current calculation history
 
 ## Bug Fixes
 - [X] Accept only numbers and needed symbols

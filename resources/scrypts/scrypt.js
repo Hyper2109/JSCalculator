@@ -10,8 +10,6 @@ function check() {
   let previousChar = input.value.charAt(input.value.length - 2)
 
   if (previousChar != '') {
-    console.log("last", lastChar)
-    console.log("pre", previousChar)
     if (goodkey2.includes(previousChar) && goodkey2.includes(lastChar)) {
       input.value = input.value.slice(0, -1)
     }
@@ -56,6 +54,8 @@ let percentage = document.querySelector('#percentage')
 percentage.addEventListener("click", print)
 
 function print() {
+  if (input.value.length == 0 && goodkey2.includes(this.innerHTML))
+    return
   input.value += this.innerHTML
   input.focus()
 }

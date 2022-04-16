@@ -11,7 +11,7 @@ A simple calculator built in: HTML CSS JavaScript
 
 ## Bug Fixes
 - [X] Accept only numbers and needed symbols
-- [ ] Don't get multiple operations consecutively
+- [X] Don't get multiple operations consecutively
 
 
 # Others

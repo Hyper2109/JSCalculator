@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="./resourcess/css/style.css">
+  <link rel="stylesheet" href="./resources/css/style.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,8 @@
 <body>
 
   <div class="container">
-    <input id="input" type="text"
-      oninput="this.value = this.value.replace(/[^0-9.+*/-]/g, '').replace(/(\..*)\./g, '$1');">
+    <input id="input" type="text" autofocus placeholder="0"
+      oninput="this.value = this.value.replace(/[^0-9.+*/%-]/g, '').replace(/(\..*)\./g, '$1');">
     <div class="separator"></div>
     <div class="btnGrid">
       <button id="canc">CE</button>
@@ -38,7 +38,7 @@
     </div>
   </div>
 
-  <script src="./resourcess/script/scrypt.js"></script>
+  <script src="./resources/scrypts/scrypt.js"></script>
 </body>
 
 </html>

@@ -25,6 +25,11 @@ button {
   color: white;
   border: none;
   border-radius: 10px;
+  transition: .2s all ease;
+}
+
+button:hover {
+  background-color: rgba(2, 0, 36, 1);
 }
 
 #btn0 {
@@ -37,32 +42,64 @@ button {
   color: #EC8579;
 }
 
+#canc:hover {
+  background-color: rgba(2, 0, 36, 1);
+}
+
 #power {
   background-color: #2E3B49;
+}
+
+#power:hover {
+  background-color: rgba(2, 0, 36, 1);
 }
 
 #percentage {
   background-color: #2E3B49;
 }
 
+#percentage:hover {
+  background-color: rgba(2, 0, 36, 1);
+}
+
 #slash {
   background-color: #421DC4;
+}
+
+#slash:hover {
+  background-color: rgba(2, 0, 36, 1);
 }
 
 #per {
   background-color: #421DC4;
 }
 
+#per:hover {
+  background-color: rgba(2, 0, 36, 1);
+}
+
 #minus {
   background-color: #421DC4;
+}
+
+#minus:hover {
+  background-color: rgba(2, 0, 36, 1);
 }
 
 #plus {
   background-color: #421DC4;
 }
 
+#plus:hover {
+  background-color: rgba(2, 0, 36, 1);
+}
+
 #equal {
   background-color: #937CE6;
+}
+
+#equal:hover {
+  background-color: rgba(2, 0, 36, 1);
 }
 
 input {
